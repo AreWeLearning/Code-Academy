@@ -1,24 +1,23 @@
 /* Delete All Borders after finished with project. We're only using them so we can see
 Must Save this file and Base HTML file to propogate the Previewer. 
 */
-*{
-    border: 1px solid red;
-}
 header {
-    font-family: 'Sans Serif';
+    font-family:'Times New Roman';
     font-size: 50px;
     text-align: center;
 
 }
 
 h1 {
+    font-family: Arial;
+    height:max-content;
     width:min-content;
     font-family: serif;
-    background-color:grey;
-    color:white;}
+    }
 
 img.Nittens{
     position: relative;
+    
 
 }
 img.Wayne{
