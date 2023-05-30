@@ -13,6 +13,15 @@ header {
 
 h1 {font-family: serif;
     color:black;}
+
+img.Nittens{
+    position: relative;
+
+}
+img.Wayne{
+    position: relative;
+   
+}
 p{
     font-size: 20px;
     color:black;
@@ -20,6 +29,6 @@ p{
 
 }
 footer {
-    position: fixed;
-    top: 20px;
+    position: relative;
+    bottom: 20px;
 }
