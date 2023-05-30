@@ -9,6 +9,7 @@ header {
     font-family: 'Sans Serif';
     font-size: 50px;
     text-align: center;
+
 }
 
 h1 {font-family: serif;
@@ -20,7 +21,7 @@ img.Nittens{
 }
 img.Wayne{
     position: relative;
-   
+
 }
 p{
     font-size: 20px;
