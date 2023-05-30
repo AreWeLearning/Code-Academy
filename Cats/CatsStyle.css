@@ -4,7 +4,6 @@ Must Save this file and Base HTML file to propogate the Previewer.
 *{
     border: 1px solid red;
 }
-
 header {
     font-family: 'Sans Serif';
     font-size: 50px;
@@ -12,8 +11,11 @@ header {
 
 }
 
-h1 {font-family: serif;
-    color:black;}
+h1 {
+    width:min-content;
+    font-family: serif;
+    background-color:grey;
+    color:white;}
 
 img.Nittens{
     position: relative;
@@ -23,8 +25,11 @@ img.Wayne{
     position: relative;
 
 }
+body {
+    background-color:bisque;
+}
 p{
-    font-size: 20px;
+    font-size: 25px;
     color:black;
     font-family: 'Times New Roman';
 
