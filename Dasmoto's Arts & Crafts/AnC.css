@@ -1,8 +1,11 @@
-h1{
+h1,
+h2,
+h3,
+p {
     font-family: Helvetica;
+}
+h1{
     font-size: 100px;
-    font-weight: bold;
-    font-display: wrap;
     color: khaki;
     text-align: center;
     background-image:url(./pattern.jpeg);
@@ -10,34 +13,18 @@ h1{
 span {
     color: blue;
     font-weight:700;
-    font-family: Helvetica;
 }
-
-h2.brushes{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
+h2.brushes{ 
     color: white;
     background-color: mediumspringgreen;
 }
 h2.frames{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
     color: white;
     background-color: lightcoral;
 }
 h2.paint{ 
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
     color: white;
     background-color: skyblue; 
 }
-h3{
-    font-family: Helvetica;
-    font-weight: bold;
-}
-p{
-    font-family: Helvetica;
-}
+
+
