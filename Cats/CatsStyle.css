@@ -17,9 +17,14 @@ h1 {
     color: black;
     font-family: Arial;
     font-family: serif;
+    text-decoration: underline;
     }
 body {
     background-color:bisque;
+}
+img {
+    cursor: pointer;
+    
 }
 p{
     font-size: 25px;
