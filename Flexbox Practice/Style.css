@@ -1,4 +1,5 @@
 * {
+    border: 1px solid red;
     background-color: black;
     opacity: 0.9;
     text-align: center;
@@ -6,7 +7,10 @@
     font-size: 22px;
     color: seashell;
 }
-
+a {
+    display: flex;
+    align-items: right;
+}
 header {
     text-align: left;
 }
@@ -16,8 +20,13 @@ h1 {
 }
 
 h2 {
-    background-image: url(./img-mission-background.jpg);
     height: 700px;
     text-align: center;
     margin: auto;
+}
+#id {
+    background-color: black;
+}
+.mission {
+    background-image: url(./img-mission-background.jpg);
 }
