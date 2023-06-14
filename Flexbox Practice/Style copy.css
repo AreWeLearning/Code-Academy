@@ -1,17 +1,22 @@
 * {
-    border: 1px solid red;
+    border: 1px solid pink;
     font-family: Helvetica;
-
+    color: seashell;
+    background-color: black;
 }
-a {
-   }
 header {
     display: inline-flex;
     border-bottom: 1px solid seashell;
 }
-
+#omission {
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+}
 #totm{
-    
+    display: inline-flex;
+    flex-wrap: wrap;
     align-content: center;
 }
 img {
