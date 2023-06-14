@@ -9,7 +9,7 @@
 }
 a {
     display: flex;
-    align-items: right;
+    align-content: right;
 }
 header {
     text-align: left;

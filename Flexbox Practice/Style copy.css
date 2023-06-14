@@ -1,0 +1,43 @@
+* {
+    border: 1px solid red;
+    font-family: Helvetica;
+
+}
+a {
+   }
+header {
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+}
+
+#totm{
+    
+    align-content: center;
+}
+img {
+    display: inline-flex;
+    width: 300px;
+    height: 200px;
+}
+
+.location.square {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+}
+
+#locations {
+    background-image: url(./img-locations-background.jpg);
+    line-height: 1.5;
+    display: inline-flex;
+    align-content: center;
+}
+footer {
+    display: flex;
+    margin-left: 20px;
+}
