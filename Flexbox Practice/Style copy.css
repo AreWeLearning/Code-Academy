@@ -1,67 +1,85 @@
-* {
+* { /* Works as intended*/
     font-family: Helvetica;
     color: seashell;
     background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: .9;
 }
-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-#title {
-    margin-left: 10px;
-    font-size: 50px;
-    font-family: 'Cedarville cursive';
-}
-.link {/* this needs fixed*/
-    text-decoration: underline;
+html {/*???????? Is this normal???????*/
+  width: 1400px;
 }
 
-#omission {
-    
-    vertical-align: center;
+header {/* Works as intended */
+    display: flex;
+    height: 69px;
+    width: 1380px;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 5;
 }
-.cmission {
+.title {/* Works as intended - Font Aside*/
+    height: 50px;
+    margin-left: 10px;
+    font-family: 'Cedarville cursive';
+}
+.ourmission {/* Works as intended*/
     background-image: url(./img-mission-background.jpg);
-    height: 700px;
     width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    margin: 0 auto;
 }
-#totm{
-    display: inline-flex;
+#twonomargin {/* Works as intended - used to Decrease space between h2 & h4*/
+    margin: 0px;
+}
+#fournomargin {/* Works as intended*/
+    margin: 0px;
+}
+.totm{ /* Works as intended - Do I NEED a width of 1000px? Visually it looks 
+    fine*/
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    align-content: center;
 }
 img {
-    display: inline-flex;
     width: 300px;
     height: 200px;
+    margin-bottom: 10px;
+}
+#locations {
+    background-image: url(./img-locations-background.jpg);
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-content: center; 
+    height: 500px;
+    width: 1200px;
+    flex-wrap: wrap;
 }
 .location.square {
     background-color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 40px;
     width: 300px;
-    height: 500px;
-    padding: 10px;
+    height: 200px;
+    justify-content: center;
+    line-height: 2;
+    margin: auto;
 }
-
-#closing {
+#closing { /* Works as intended*/
     display: flex;
-    align-content:space-around;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+
 }
 
-#locations {
-    background-image: url(./img-locations-background.jpg);
-    line-height: 1.5;
-    display: inline-flex;
+footer { /* Works as intended*/
+    display: flex;
     align-content: center;
-}
-footer {
-    display: flex;
     margin-left: 20px;
-}/*Footer Good*/
+}
