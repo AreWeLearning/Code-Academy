@@ -1,18 +1,33 @@
 * {
-    border: 1px solid pink;
     font-family: Helvetica;
     color: seashell;
     background-color: black;
 }
 header {
-    display: inline-flex;
-    border-bottom: 1px solid seashell;
-}
-#omission {
     display: flex;
-    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#title {
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: 'Cedarville cursive';
+}
+.link {/* this needs fixed*/
+    text-decoration: underline;
+}
+
+#omission {
+    
     vertical-align: center;
     align-items: center;
+}
+.cmission {
+    background-image: url(./img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
 }
 #totm{
     display: inline-flex;
@@ -24,7 +39,6 @@ img {
     width: 300px;
     height: 200px;
 }
-
 .location.square {
     background-color: black;
     align-items: center;
@@ -36,6 +50,11 @@ img {
     padding: 10px;
 }
 
+#closing {
+    display: flex;
+    align-content:space-around;
+}
+
 #locations {
     background-image: url(./img-locations-background.jpg);
     line-height: 1.5;
@@ -45,4 +64,4 @@ img {
 footer {
     display: flex;
     margin-left: 20px;
-}
+}/*Footer Good*/
