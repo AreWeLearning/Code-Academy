@@ -1,19 +1,22 @@
 * { /* Works as intended*/
     font-family: Helvetica;
     color: seashell;
-    background-color: black;
     font-size: 22px;
     text-align: center;
     opacity: .9;
 }
-html {/*???????? Is this normal???????*/
+html {/*???????? Is this normal???????
+    Using width here as well as using trial and error for width of header*/
   width: 1400px;
+}
+body {
+    background-color: black;
 }
 
 header {/* Works as intended */
-    display: flex;
     height: 69px;
     width: 1380px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
@@ -21,7 +24,6 @@ header {/* Works as intended */
     z-index: 5;
 }
 .title {/* Works as intended - Font Aside*/
-    height: 50px;
     margin-left: 10px;
     font-family: 'Cedarville cursive';
 }
@@ -29,23 +31,30 @@ header {/* Works as intended */
     background-image: url(./img-mission-background.jpg);
     width: 1200px;
     height: 700px;
+    position: relative;
+    top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 1.5;
-    margin: 0 auto;
+    margin: auto;
 }
 #twonomargin {/* Works as intended - used to Decrease space between h2 & h4*/
     margin: 0px;
+    background-color: black;
 }
 #fournomargin {/* Works as intended*/
     margin: 0px;
+    background-color: black;
 }
 .totm{ /* Works as intended - Do I NEED a width of 1000px? Visually it looks 
     fine*/
+    width: 1000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
+    word-spacing: 0px;
 }
 img {
     width: 300px;
@@ -54,28 +63,35 @@ img {
 }
 #locations {
     background-image: url(./img-locations-background.jpg);
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    align-content: center; 
+    margin: auto;
     height: 500px;
     width: 1200px;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
 }
-.location.square {
+  .loctext {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    top: 90px;
+    left: 550px;
+  }
+  .location.square {
     background-color: black;
     width: 300px;
     height: 200px;
-    justify-content: center;
     line-height: 2;
     margin: auto;
-}
+    opacity: 1.0;
+    position: relative;
+    right: 50px;
+  }
 #closing { /* Works as intended*/
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 200px;
-
 }
 
 footer { /* Works as intended*/
