@@ -5,17 +5,14 @@
     text-align: center;
     opacity: .9;
 }
-html {/*???????? Is this normal???????
-    Using width here as well as using trial and error for width of header*/
-  width: 1400px;
-}
 body {
     background-color: black;
+    margin: 0 auto;
 }
 
 header {/* Works as intended */
     height: 69px;
-    width: 1380px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,18 +44,18 @@ header {/* Works as intended */
     margin: 0px;
     background-color: black;
 }
-.totm{ /* Works as intended - Do I NEED a width of 1000px? Visually it looks 
-    fine*/
+.totm{ /* Works as intended - Do I NEED a width of 1000px? Visually it looks fine. */
     width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
+
 }
 img {
+    padding: 0px;
     width: 300px;
-    height: 200px;
-    margin-bottom: 10px;
+    height: 200px;    
 }
 #locations {
     background-image: url(./img-locations-background.jpg);
@@ -66,15 +63,22 @@ img {
     height: 500px;
     width: 1200px;
     display: flex;
-    justify-content: space-between;
-
+    flex-direction: column;
+    justify-content: center;
 }
+.store-locations {
+    display: flex;
+    flex-direction: row;
+  }
   .loctext {
-    position: relative;
-    width: max-content;
-    height: max-content;
-    top: 90px;
-    left: 550px;
+    opacity: 1.0;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
   }
   .location.square {
     background-color: black;
@@ -82,9 +86,8 @@ img {
     height: 200px;
     line-height: 2;
     margin: auto;
+    padding: 10px;
     opacity: 1.0;
-    position: relative;
-    right: 50px;
   }
 #closing { /* Works as intended*/
     display: flex;
