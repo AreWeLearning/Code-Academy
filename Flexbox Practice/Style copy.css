@@ -54,7 +54,6 @@ header {/* Works as intended */
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    word-spacing: 0px;
 }
 img {
     width: 300px;
