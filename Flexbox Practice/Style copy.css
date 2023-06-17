@@ -21,10 +21,11 @@ header {/* Works as intended */
     position: fixed;
     z-index: 5;
 }
-#title {/* Isn't overriding the img class styles??*/
+#title {/* img properties aren't overriding the img class styles??*/
     margin-left: 10px;
-    background-image: url(./TC\ Logo.png);
-
+    height: 50px;
+    display: flex;
+    flex-shrink: 2;
   
 }
 .ourmission {/* Works as intended*/
@@ -47,7 +48,7 @@ header {/* Works as intended */
     margin: 0px;
     background-color: black;
 }
-.totm{ /* Works as intended - Do I NEED a width of 1000px? Visually it looks fine. */
+.totm{ /* Works as intended*/
     width: 1000px;
     display: flex;
     justify-content: space-evenly;
@@ -55,10 +56,9 @@ header {/* Works as intended */
     margin: auto;
 
 }
-.images {
-    padding: 0px;
+.itotm {
     width: 300px;
-    height: 200px;    
+    height: 200px;
 }
 #locations {
     background-image: url(./img-locations-background.jpg);
