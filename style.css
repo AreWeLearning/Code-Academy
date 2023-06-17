@@ -1,9 +1,40 @@
-header{
-    color:black;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Sans Serif';
-
-    
+* {
+    border: 1px solid blue;
 }
 
+.container {
+    display: grid;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "header header header"
+                         "nav nav nav" 
+                         "info services merch"
+                         "footer footer footer";
+    grid-template-rows: 300px 120px 400px 120px;
+    grid-template-columns: 1fr 2fr 1fr; 
+  }
+   
+  header {
+    grid-area: header;
+  } 
+   
+  nav {
+    grid-area: nav;
+  } 
+   
+  .info {
+    grid-area: info;
+  } 
+   
+  .services {
+    grid-area: services;
+  }
+
+  .merch {
+    grid-area: merch;
+  }
+   
+  footer {
+    grid-area: footer;
+  }
