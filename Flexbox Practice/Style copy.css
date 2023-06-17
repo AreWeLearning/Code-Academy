@@ -4,6 +4,7 @@
     font-size: 22px;
     text-align: center;
     opacity: .9;
+    border: 1px solid blue;
 }
 body {
     background-color: black;
@@ -20,9 +21,11 @@ header {/* Works as intended */
     position: fixed;
     z-index: 5;
 }
-.title {/* Works as intended - Font Aside*/
+#title {/* Isn't overriding the img class styles??*/
     margin-left: 10px;
-    font-family: 'Cedarville cursive';
+    background-image: url(./TC\ Logo.png);
+
+  
 }
 .ourmission {/* Works as intended*/
     background-image: url(./img-mission-background.jpg);
@@ -52,7 +55,7 @@ header {/* Works as intended */
     margin: auto;
 
 }
-img {
+.images {
     padding: 0px;
     width: 300px;
     height: 200px;    
