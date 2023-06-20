@@ -38,9 +38,19 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+}
+
+a .desktop.logo { /*Selector Correct - Font Family is Weird */
+  display: flex;
+  margin-left: 30px;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  text-decoration: none;
+
 }
 
 header .content {
@@ -55,22 +65,26 @@ header .logo {
 
 header nav ul {
   display: flex;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 nav li {
-  padding-left: 3.5rem;
+    padding-left: 3.5rem;
+    font-family: 'Roboto-Regular', sans-serif;
 }
 
 nav a {
-  vertical-align: bottom;
   line-height: 1.6;
-  font-size: 1rem;
   color: #4a4a4a;
+  margin-right: 30px;
+  font-family: 'Roboto-Regular';
+  text-decoration: none;
 }
 
 header .icon {
   width: 1rem;
-  padding-left: .75rem;
+  padding-right: 12px;
 }
 
 header .mobile {
@@ -117,6 +131,11 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  
 }
 
 #sign-up-cta {
@@ -124,6 +143,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-top: 170px;
+  margin-left: 10%;
 }
 
 #sign-up-cta .content {
@@ -221,12 +242,15 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  width: 100%;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+  display: flex;
+  
 }
 
 .feature h2 {
@@ -271,6 +295,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
+  width: 100%;
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
