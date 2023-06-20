@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -230,43 +231,45 @@ header .mobile {
 
 /* Features Section */
 
-#features-section {
+#features-section { /*Matches Solution*/
   display: flex;
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
 
-.feature {
+.feature { /*Matches Solution*/
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  width: 100%;
 }
 
-.feature .image-container {
+.feature .image-container { /*Matches Solution*/
   width: 90%;
   height: 65%;
   margin: 0 auto;
-  display: flex;
-  
 }
 
-.feature h2 {
+.feature .content { /*Matches Solution*/
+  padding: 2.5rem 0;
+}
+
+.feature h2 { /*Matches Solution*/
   padding-bottom: .5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  
 }
 
-.feature h3 {
+.feature h3 { /*Matches Solution*/
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  
 }
-
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
