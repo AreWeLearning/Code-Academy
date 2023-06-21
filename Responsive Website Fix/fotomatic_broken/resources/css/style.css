@@ -306,6 +306,10 @@ header .mobile {
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+  color: white;
+  opacity: 1.0;
+  font-size: 2.25rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 #filters-section .content h2 {
@@ -324,6 +328,8 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -368,11 +374,12 @@ header .mobile {
 
 #quotes-section quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: "Palatino", sans-serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  margin: 80px 30px;
 }
 
 #quotes-section quote-citation {
